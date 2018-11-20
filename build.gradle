@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = "2.0.6.RELEASE"
+        springBootVersion = "2.0.9.RELEASE"
     }
 
     repositories {
@@ -24,14 +24,9 @@ repositories {
 }
 
 dependencies {
-//    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
-    compile("org.hibernate.validator:hibernate-validator:6.0.13.Final")
-    compile("org.springframework:spring-web:5.0.10.RELEASE")
-    compile("org.springframework:spring-webmvc:5.0.10.RELEASE")
-    compile("org.springframework.boot:spring-boot-starter:2.0.6.RELEASE")
-    compile("org.springframework.boot:spring-boot-starter-json:2.0.6.RELEASE")
-    compile("org.springframework.boot:spring-boot-starter-tomcat:2.0.6.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
 
+    testCompile("org.mockito:mockito-core:2.28.2")
     testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 }
 
