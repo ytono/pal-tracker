@@ -31,4 +31,14 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter:2.0.6.RELEASE")
     compile("org.springframework.boot:spring-boot-starter-json:2.0.6.RELEASE")
     compile("org.springframework.boot:spring-boot-starter-tomcat:2.0.6.RELEASE")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 }
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "Hello world.",
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Hello from test",
+])
