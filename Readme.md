@@ -30,3 +30,23 @@ curl -i -XDELETE -H"Content-Type: application/json" ${URL}/time-entries/${TIME_E
 
 
 # Cloud Foundry Services & Database Migrations
+
+
+
+curl -i ${URL}/time-entries
+curl -i ${URL}/time-entries
+curl -i ${URL}/time-entries
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i ${URL}/time-entries
+curl -i ${URL}/time-entries
+curl -i ${URL}/time-entries
+curl -i ${URL}/time-entries
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+curl -i -XPOST -H"Content-Type: application/json" ${URL}/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
